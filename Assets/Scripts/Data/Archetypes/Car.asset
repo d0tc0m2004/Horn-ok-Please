@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99c18f832ae6604792e4020016d49e9, type: 3}
+  m_Name: Car
+  m_EditorClassIdentifier: Assembly-CSharp::HornOkPlease.Data.VehicleArchetype
+  vehicleName: Car
+  size: {x: 1.7, y: 1.5, z: 3.8}
+  minSpeed: 40
+  maxSpeed: 70
+  laneChangeInterval: 6
+  laneChangeSpeed: 2.5
+  avoidanceDistance: 18
+  preferredLanes: 000000000100000002000000
+  baseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  randomizeColor: 1
+  colorVariants:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - {r: 0.2, g: 0.2, b: 0.6, a: 1}
+  - {r: 0.6, g: 0.15, b: 0.1, a: 1}
+  - {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  - {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  spawnWeight: 10
