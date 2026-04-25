@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:discussions.unity.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:forum.unity.com)",
+      "WebFetch(domain:www.doofah.com)",
+      "Bash(curl -s https://www.google.com/search?q=Unity+motorcycle+controller+rigidbody+lean+tutorial+code -H 'User-Agent: Mozilla/5.0')",
+      "WebFetch(domain:www.ridetraffic.com)",
+      "WebFetch(domain:digitalopus.ca)",
+      "WebFetch(domain:www.artstation.com)",
+      "Bash(cd /c/Users/nellu/\"Horn ok Please\")"
+    ]
+  }
+}

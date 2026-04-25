@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find 'C:/Users/nellu/Horn ok Please/Assets' -name *.cs)"
+    ]
+  }
+}
